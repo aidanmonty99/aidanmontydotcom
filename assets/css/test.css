@@ -1,6 +1,6 @@
 .centered {
 	text-align: center;
-	top: 20%;
+	top: 40px;
 	left: 50%;
 	position: absolute;
 	transform: translateX(-50%);
