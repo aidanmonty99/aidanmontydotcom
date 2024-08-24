@@ -1,7 +1,19 @@
 .centered {
 	text-align: center;
-	top: 40%;
+	top: 20%;
 	left: 50%;
 	position: absolute;
 	transform: translateX(-50%);
+}
+
+.byline {
+	color: grey;
+	font-size: 14px;
+	transform: translateY(-15px);
+}
+
+#resume_button:hover {
+	background-color: #eded4e;
+	border-color: red;
+	font-weight: bold;
 }
