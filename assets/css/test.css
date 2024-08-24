@@ -12,8 +12,19 @@
 	transform: translateY(-15px);
 }
 
-#resume_button:hover {
-	background-color: #eded4e;
-	border-color: red;
-	font-weight: bold;
+@keyframes clickMe {
+	0% {background-color: lightgrey; border-color: grey; font-weight: normal}
+	100% {background-color: lightyellow; border-color: lightpink; font-weight: bold}
 }
+
+
+#resume_button {
+	animation: clickMe 2s indefinite;
+	/* background-color: lightgrey; */
+}
+
+
+
+/* #resume_button:hover {
+	animation: clickMe 1s indefinite;
+} */
