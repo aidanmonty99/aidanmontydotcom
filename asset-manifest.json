@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/aidanmontydotcom/static/css/main.f855e6bc.css",
-    "main.js": "/aidanmontydotcom/static/js/main.b1bce806.js",
-    "static/js/453.197a9859.chunk.js": "/aidanmontydotcom/static/js/453.197a9859.chunk.js",
+    "main.js": "/aidanmontydotcom/static/js/main.bc0c6182.js",
+    "static/js/453.ff935552.chunk.js": "/aidanmontydotcom/static/js/453.ff935552.chunk.js",
     "static/media/logo.svg": "/aidanmontydotcom/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/aidanmontydotcom/index.html",
     "main.f855e6bc.css.map": "/aidanmontydotcom/static/css/main.f855e6bc.css.map",
-    "main.b1bce806.js.map": "/aidanmontydotcom/static/js/main.b1bce806.js.map",
-    "453.197a9859.chunk.js.map": "/aidanmontydotcom/static/js/453.197a9859.chunk.js.map"
+    "main.bc0c6182.js.map": "/aidanmontydotcom/static/js/main.bc0c6182.js.map",
+    "453.ff935552.chunk.js.map": "/aidanmontydotcom/static/js/453.ff935552.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.b1bce806.js"
+    "static/js/main.bc0c6182.js"
   ]
 }
