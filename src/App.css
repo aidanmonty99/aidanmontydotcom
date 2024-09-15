@@ -25,6 +25,23 @@
   height: 100%;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .ease-in {
+    animation: ease-in-animation 1s linear;
+  }
+}
+
+@keyframes ease-in-animation {
+  from {
+    transform: translateY(-3%);
+    opacity: 0.8;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 hr {
   margin-top: 10%;
   border: 0.2px solid #FAF9F6;
