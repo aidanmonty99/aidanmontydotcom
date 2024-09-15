@@ -7,27 +7,22 @@
   flex-direction: row;
   height: 400px;
   align-items: center;
-  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
   margin-top: 10%;
-  /* margin-left: 15%; */
-  /* background-color:blue; */
 }
 
 .App-header-text {
   float: left;
   margin-left: 10%;
   width: 40%;
-  /* margin-top: 10%; rely on align items center instead */
 }
 
 .My-picture {
   pointer-events: none;
   float: left;
   margin-left: 8%;
-  height: 110%;
-  /* margin-top: 5%;  rely on align items center instead */
+  height: 100%;
 }
 
 .App-link {
