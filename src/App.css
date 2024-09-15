@@ -25,6 +25,11 @@
   height: 100%;
 }
 
+hr {
+  margin-top: 10%;
+  border: 0.2px solid #FAF9F6;
+}
+
 .App-link {
   color: #61dafb;
 }

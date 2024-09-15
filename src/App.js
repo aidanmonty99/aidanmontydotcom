@@ -10,6 +10,8 @@ function App() {
         </header>
         <img src={my_picture} className="My-picture" alt="My picture" />
       </div>
+      {/* <hr /> */}
+
     </div>
   );
 }
