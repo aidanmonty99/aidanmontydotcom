@@ -33,7 +33,7 @@ function App() {
       <hr />
       <div className="section">
         <div className="picture">
-          <img className="contained_picture" src={software_testing} alt="software testing" />
+          <img src={software_testing} alt="software testing" />
           <p><a href="https://www.freepik.com/free-vector/tiny-people-testing-quality-assurance-software-isolated-flat-vector-illustration-cartoon-character-fixing-bugs-hardware-device-application-test-it-service-concept_10613736.htm#query=software%20testing&position=2&from_view=keyword&track=ais_hybrid&uuid=d482d1b3-49d1-45ec-8376-fa07caeaf200">Image by pch.vector</a> on Freepik</p>
         </div>
         <header className="section-text">
@@ -44,6 +44,14 @@ function App() {
         </header>
       </div>
       <hr />
+      <div className="section">
+        <header className="section-text">
+          In my free time, I enjoy working out, reading, and generally being outdoors. I also love traveling and trying new restaurants. I
+          consider myself something of a foodie.
+        </header>
+        <img className="picture" src={software_testing} alt="software testing" />
+      </div>
+      <footer style={{"margin-top": "10%"}}/>
     </div>
   );
 }
