@@ -1,6 +1,7 @@
 import my_picture from './img/Me in the Scottish highlands.jpg';
 import uw_pic from './img/Uw-madison_pic.jpg';
 import esker_pic from './img/esker_pic.jpg';
+import software_testing from './img/software_testing.jpg';
 import './App.css';
 
 function App() {
@@ -29,6 +30,20 @@ function App() {
         </header>
         <img src={esker_pic} className="picture" alt="Esker, Inc" />
       </div>
+      <hr />
+      <div className="section">
+        <div className="picture">
+          <img className="contained_picture" src={software_testing} alt="software testing" />
+          <p><a href="https://www.freepik.com/free-vector/tiny-people-testing-quality-assurance-software-isolated-flat-vector-illustration-cartoon-character-fixing-bugs-hardware-device-application-test-it-service-concept_10613736.htm#query=software%20testing&position=2&from_view=keyword&track=ais_hybrid&uuid=d482d1b3-49d1-45ec-8376-fa07caeaf200">Image by pch.vector</a> on Freepik</p>
+        </div>
+        <header className="section-text">
+          As a Development Consultant, I've had to work closely with our customers to understand their business needs and ensure a successful project
+          implementation throughout the technical build, testing, and go-live phases. I worked with CompuNet, a medical supplies company, to build a
+          unique e-commerce portal that their customers could use to order their products. We focused heavily on easy-to-use UI while advancing Esker
+          capabilities to work with new third parties.
+        </header>
+      </div>
+      <hr />
     </div>
   );
 }
