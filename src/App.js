@@ -2,6 +2,7 @@ import my_picture from './img/Me in the Scottish highlands.jpg';
 import uw_pic from './img/Uw-madison_pic.jpg';
 import esker_pic from './img/esker_pic.jpg';
 import software_testing from './img/software_testing.jpg';
+import foodie_pic from './img/foodie_pic.jpg';
 import './App.css';
 
 function App() {
@@ -49,7 +50,7 @@ function App() {
           In my free time, I enjoy working out, reading, and generally being outdoors. I also love traveling and trying new restaurants. I
           consider myself something of a foodie.
         </header>
-        <img className="picture" src={software_testing} alt="software testing" />
+        <img className="picture" src={foodie_pic} alt="Foodie pic" />
       </div>
       <footer style={{"margin-top": "10%"}}/>
     </div>
