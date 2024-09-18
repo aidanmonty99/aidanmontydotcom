@@ -1,6 +1,8 @@
+import resume from './assets/MONTY_RESUME.pdf';
+
 function ResumeButton() {
     return(
-        <a href="./assets/MONTY_RESUME.pdf" download="Aidan_Monty_Resume">
+        <a href={resume} download="Aidan_Monty_Resume.pdf">
             <button className="ResumeButton">
                 DOWNLOAD RESUME
             </button>
