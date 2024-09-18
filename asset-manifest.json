@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.76b1dd0c.css",
-    "main.js": "/static/js/main.3c537466.js",
+    "main.css": "/static/css/main.32cfe510.css",
+    "main.js": "/static/js/main.a3ede2fd.js",
     "static/js/453.197a9859.chunk.js": "/static/js/453.197a9859.chunk.js",
+    "static/media/foodie_pic.jpg": "/static/media/foodie_pic.03cb6958ecba6f2b9f4e.jpg",
     "static/media/Me in the Scottish highlands.jpg": "/static/media/Me in the Scottish highlands.e65c3e2298fc12b77d68.jpg",
+    "static/media/software_testing.jpg": "/static/media/software_testing.dd03c9457f3cab07f063.jpg",
+    "static/media/Uw-madison_pic.jpg": "/static/media/Uw-madison_pic.bb41709c6b4f81061c4c.jpg",
+    "static/media/esker_pic.jpg": "/static/media/esker_pic.75adb838bbaf5bbe70f2.jpg",
     "index.html": "/index.html",
-    "main.76b1dd0c.css.map": "/static/css/main.76b1dd0c.css.map",
-    "main.3c537466.js.map": "/static/js/main.3c537466.js.map",
+    "main.32cfe510.css.map": "/static/css/main.32cfe510.css.map",
+    "main.a3ede2fd.js.map": "/static/js/main.a3ede2fd.js.map",
     "453.197a9859.chunk.js.map": "/static/js/453.197a9859.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76b1dd0c.css",
-    "static/js/main.3c537466.js"
+    "static/css/main.32cfe510.css",
+    "static/js/main.a3ede2fd.js"
   ]
 }
