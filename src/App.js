@@ -1,8 +1,8 @@
-import my_picture from './img/Me in the Scottish highlands.jpg';
+import matterhorn_pic from './img/Me by the Matterhorn.jpeg';
 import uw_pic from './img/Uw-madison_pic.jpg';
 import esker_pic from './img/esker_pic.jpg';
-import software_testing from './img/software_testing.jpg';
-import foodie_pic from './img/foodie_pic.jpg';
+import coding_pic from './img/computer-program-coding-screen.jpg';
+import north_carolina_pic from './img/Me and family in North Carolina.jpeg';
 import './App.css';
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <div className="App ease-in">
       <div className="section">
         <header className="section-text ease-in">
-          Hi! My name is Aidan Monty, and I'm a developer with an eye for detail. This is me in the Scottish highlands.
+          Hi! My name is Aidan Monty, and I'm a TypeScript developer with over four years of experience. This is me on a recent trip to the Matterhorn in Switzerland.
         </header>
-        <img src={my_picture} className="picture" alt="My picture" />
+        <img src={matterhorn_pic} className="picture" alt="My picture" />
       </div>
       <hr />
       <div className="section">
@@ -25,32 +25,32 @@ function App() {
       <hr />
       <div className="section">
         <header className="section-text">
-          Since graduating, I've furthered my development skills at Esker, Inc., where I've made my way from Associate Development Consultant to 
-          Development Consultant. I've developed a strong foundation in Javascript to build both reactive user experiences on the frontend and stable
-          data management on the backend. 
+          After graduating, I've developed my professional career at Esker, Inc., where I started out as a Development Consultant in January 2022 doing
+          project implementation and writing custom developments on our business automation software for our customers. I gained valuable insight working
+          directly with our end users and translating their business needs into real technical solutions.
         </header>
         <img src={esker_pic} className="picture" alt="Esker, Inc" />
       </div>
       <hr />
       <div className="section">
         <div className="picture">
-          <img src={software_testing} alt="software testing" />
-          <p><a href="https://www.freepik.com/free-vector/tiny-people-testing-quality-assurance-software-isolated-flat-vector-illustration-cartoon-character-fixing-bugs-hardware-device-application-test-it-service-concept_10613736.htm#query=software%20testing&position=2&from_view=keyword&track=ais_hybrid&uuid=d482d1b3-49d1-45ec-8376-fa07caeaf200">Image by pch.vector</a> on Freepik</p>
+          <img src={coding_pic} alt="software testing" />
+          <p><a href="https://www.magnific.com/free-photo/computer-program-coding-screen_18415585.htm">Image by rawpixel.com on Magnific</a></p>
         </div>
         <header className="section-text">
-          As a Development Consultant, I've had to work closely with our customers to understand their business needs and ensure a successful project
-          implementation throughout the technical build, testing, and go-live phases. I worked with CompuNet, a medical supplies company, to build a
-          unique e-commerce portal that their customers could use to order their products. We focused heavily on easy-to-use UI while advancing Esker
-          capabilities to work with new third parties.
+          Beginning in March 2025, I switched over to be a Software Developer in R&D, working on larger and more complex projects on our base web application
+          for standard release to all customers. Some keys ones have included building support for EDI 820 as a new remittance file format we can process, developing
+          a plug-in to Chat GPT to process unstructured data within inbound emails, and, most recently, working on upscaling the quantity of data we can process in general,
+          going from an old limit of 10k lines per data file to closer to 150k.
         </header>
       </div>
       <hr />
       <div className="section">
         <header className="section-text">
-          In my free time, I enjoy working out, reading, and generally being outdoors. I also love traveling and trying new restaurants. I
-          consider myself something of a foodie.
+          In my free time, I enjoy working out, reading, and generally being outdoors. I also love traveling and trying new restaurants. Here's me on recent
+          family trip to North Carolina.
         </header>
-        <img className="picture" src={foodie_pic} alt="Foodie pic" />
+        <img className="picture" src={north_carolina_pic} alt="Me and my family in the Appalachian mountains in North Carolina" />
       </div>
       <footer style={{"margin-top": "10%"}}/>
     </div>
