@@ -58,7 +58,7 @@
   }
 }
 
-#menu {
+#menu-button {
   width: 50px;
   height: 50px;
   background-color: var(--button-color);
@@ -78,7 +78,7 @@
 
 .menu-bar {
   background-color: white;
-  height: 4px;
+  height: 3px;
   width: 50%;
   border-radius: 1px;
 }
@@ -92,6 +92,9 @@
   .ease-in {
     animation: ease-in-animation 1s linear;
   }
+  .menu-animate {
+    animation: menu-rotate-right 0.5s linear;
+  }
 }
 
 @keyframes ease-in-animation {
@@ -102,6 +105,18 @@
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@keyframes menu-rotate-right {
+  5% {
+    rotate: -10deg;
+  }
+  95% {
+    rotate: 190deg;
+  }
+  100% {
+    rotate: 180deg;
   }
 }
 
