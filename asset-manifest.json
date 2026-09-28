@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.32cfe510.css",
-    "main.js": "/static/js/main.70fd09ab.js",
-    "static/js/453.197a9859.chunk.js": "/static/js/453.197a9859.chunk.js",
+    "main.css": "/static/css/main.f2c7179d.css",
+    "main.js": "/static/js/main.0c00baa8.js",
     "static/media/closeup-hands-using-computer-laptop-with-screen-showing-analysis-data.jpg": "/static/media/closeup-hands-using-computer-laptop-with-screen-showing-analysis-data.65c092a56f40406621e6.jpg",
     "static/media/computer-program-coding-screen.jpg": "/static/media/computer-program-coding-screen.ffada8fa019880237304.jpg",
     "static/media/Me and family in North Carolina.jpeg": "/static/media/Me and family in North Carolina.2d8942605ba062ec01a3.jpeg",
@@ -11,12 +10,11 @@
     "static/media/Uw-madison_pic.jpg": "/static/media/Uw-madison_pic.bb41709c6b4f81061c4c.jpg",
     "static/media/esker_pic.jpg": "/static/media/esker_pic.75adb838bbaf5bbe70f2.jpg",
     "index.html": "/index.html",
-    "main.32cfe510.css.map": "/static/css/main.32cfe510.css.map",
-    "main.70fd09ab.js.map": "/static/js/main.70fd09ab.js.map",
-    "453.197a9859.chunk.js.map": "/static/js/453.197a9859.chunk.js.map"
+    "main.f2c7179d.css.map": "/static/css/main.f2c7179d.css.map",
+    "main.0c00baa8.js.map": "/static/js/main.0c00baa8.js.map"
   },
   "entrypoints": [
-    "static/css/main.32cfe510.css",
-    "static/js/main.70fd09ab.js"
+    "static/css/main.f2c7179d.css",
+    "static/js/main.0c00baa8.js"
   ]
 }
