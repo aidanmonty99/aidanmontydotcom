@@ -3,6 +3,12 @@
   --button-highlight: rgb(54, 136, 250);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family:
