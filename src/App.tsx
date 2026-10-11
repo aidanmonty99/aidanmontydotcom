@@ -15,11 +15,15 @@ function App() {
           four years of experience. This is me on a recent trip to the
           Matterhorn in Switzerland.
         </header>
-        <img src={matterhorn_pic} className="picture" alt="My picture" />
+        <div className="picture-container">
+          <img src={matterhorn_pic} alt="My picture" />
+        </div>
       </div>
       <hr />
       <div className="section">
-        <img src={uw_pic} className="picture" alt="UW Madison" />
+        <div className="picture-container">
+          <img src={uw_pic} alt="UW Madison" />
+        </div>
         <header className="section-text">
           I graduated from the University of Wisconsin-Madison in December 2021
           with a BS in Computer Science. My education gave me a strong
@@ -37,11 +41,13 @@ function App() {
           insight working directly with our end users and translating their
           business needs into real technical solutions.
         </header>
-        <img src={esker_pic} className="picture" alt="Esker, Inc" />
+        <div className="picture-container">
+          <img src={esker_pic} alt="Esker, Inc" />
+        </div>
       </div>
       <hr />
       <div className="section">
-        <div className="picture">
+        <div className="picture-container">
           <img src={coding_pic} alt="software testing" />
           <p>
             <a href="https://www.magnific.com/free-photo/computer-program-coding-screen_18415585.htm">
@@ -69,7 +75,7 @@ function App() {
           process in general, going from an old limit of 10k lines per data file
           to closer to 150k.
         </header>
-        <div className="picture">
+        <div className="picture-container">
           <img src={spreadsheets_pic} alt="Spreadsheets" />
           <p>
             <a href="https://www.magnific.com/free-photo/closeup-hands-using-computer-laptop-with-screen-showing-analysis-data_2861371.htm">
@@ -80,18 +86,24 @@ function App() {
       </div>
       <hr />
       <div className="section">
-        <img
-          className="picture"
-          src={north_carolina_pic}
-          alt="Me and my family in the Appalachian mountains in North Carolina"
-        />
+        <div className="picture-container">
+          <img
+            src={north_carolina_pic}
+            alt="Me and my family in the Appalachian mountains in North Carolina"
+          />
+        </div>
         <header className="section-text">
           In my free time, I enjoy working out, reading, and generally being
           outdoors. I also love traveling and trying new restaurants. Here's me
           on recent family trip to North Carolina.
         </header>
       </div>
-      <footer style={{ marginTop: "10%" }} />
+      <footer className="footer">
+        Favicon image by&nbsp;
+        <a href="https://www.magnific.com/free-vector/light-bulb-hand-drawn-style_230292141.htm">
+          Magnific.com
+        </a>
+      </footer>
     </div>
   );
 }

@@ -1,6 +1,9 @@
 :root {
   --button-color: rgb(0, 106, 255);
   --button-highlight: rgb(54, 136, 250);
+  --unimportant-font-color: rgb(112, 116, 119);
+  --unimportant-font-size: 10px;
+  --vertical-margin-space: 10%;
 }
 
 *,
